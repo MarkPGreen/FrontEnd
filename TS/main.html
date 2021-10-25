@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FE</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/Product.js"></script>
+  <script type="text/javascript" src="js/DataBase.js"></script>
+  <script type="text/javascript" src="js/PriceFormatter.js"></script>
+  <script type="text/javascript" src="js/ShoppingCart.js"></script>
+  <script type="text/javascript" src="js/ProductList.js"></script>
+  <script type="text/javascript" src="js/RecommendedProducts.js"></script>
+  <script type="text/javascript" src="js/SearchProducts.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+  <div class=allcontent>
+    <div class="titlebar">
+      <span class=titletext>Smart Hardware Shop</span><br />
+      <div class="searchBox">
+        <input class="searchInput" type="text" name="" placeholder="Search">
+        <button class="button searchButton">Search </button>
+      </div>
+    </div>
+    <br />
+    <div class="content">
+      <div class="products">
+        <div class="newproducts">
+          <div class="newproductstitle">News/Products</div>
+          <section class="newproductslist"></section>
+        </div>
+        <br />
+        <div class="listproductswindow">
+          <section class="listproducts">
+          </section>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="cartheader">
+          <h3 class="Heading">Shopping Cart</h3>
+          <h5 class="Action">Remove all</h5>
+        </div>
+        <div class="customercart">
+        </div>
+        <hr>
+        <div class="checkout">
+          <div class="total">
+            <div>
+              <div class="Subtotal">Sub-Total</div>
+              <div class="total-items">0 items</div>
+            </div>
+            <div class="total-amount">£0.00</div>
+          </div>
+          <button class="button">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shoppingcarttemplate" style="display: none;">
+    <div class="items">
+      <div>
+        <img class="picture">
+      </div>
+      <div class="about">
+        <h1 class="title"></h1>
+      </div>
+      <div class="counter">
+        <div class="btn minus">-</div>
+        <div class="count">1</div>
+        <div class="btn plus">+</div>
+      </div>
+      <div class="prices">
+        <div class="amount"></div>
+        <div class="remove"><u>Remove</u></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
